@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1</title>
+</head>
+<body>
+    <h1>Los tres pilares de la Web</h1>
+    <p><a href="http://es.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a> es considerado el padre de la Web porque desarrollo los tres elementos basicos para el funcionamiento de la <a href="http://es.wikipedia.org/wiki/World_Wide_Web">Web</a>:
+        <ul>
+            <li><a href=" http://es.wikipedia.org/wiki/HTML">HTML</a></li>
+            <li><a href=" http://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a></li>
+            <li><a href="http://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme">URL</a></li>
+        </ul>
+    </p> 
+    
+    <h2>HTML</h2>
+
+    <p>HTML, siglas de <b>Hyper Text Markup lenguage,</b> hace referencia al lenguaje de marcado para la elaboracion de paginas web. Es un estandar que sirve de referencia para la elaboracion de páginas web en sus diferentes versiones, define una estructura basica y un código (denominado HTML) para la presentación de contenido de una página web, que incluye texto, imágenes, videos, juegos, entre otros elementos. Este estándar es gestionado por el World Wide Web Consortium (W3C) o Consorcio WWW una organización dedicada a la estandarización de la mayoría de las tecnologías asociadas a la web, especialmente en lo relacionado con su escritura e interpretación. HTML se considera el lenguaje web más importante y su invención crucial para el surgimiento, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que prevalece en la visualización de páginas web y es adoptado por todos los navegadores actuales.​ </p>
+    <p>Fuente: <a href=" http://es.wikipedia.org/wiki/HTML">HTML, </a>Wikipedia</p>
+    
+</body>
+</html>
