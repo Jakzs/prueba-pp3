@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ley de Ohm</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .custom-container {
+            background-color: #343a40; /* azul oscuro background */
+            color: #fff; /* Text color set to white for contrast */
+            padding: 10px; /* Reduce padding for the container */
+            border-radius: 10px; /* Add border radius for rounded corners */
+            margin: 20px auto; /* Center the container horizontally with top and bottom margin */
+            width: 50%; /* Set the width of the container */
+            height: 200px;
+        }
+        .smaller-image {
+            max-width: 200px; /* Set maximum width for the image */
+            float: right; /* Align the image to the right */
+            margin-top: 20px; /* Add margin for spacing */
+        }
+    </style>
+</head>
+<body>     
+    <nav class="navbar bg-success"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Calculo de Ley de Ohm</a>
+        </div>
+    </nav>
+    <div class="container custom-container">
+        <select class="form-select" onchange="cambiar_label()" id="slt_operacion">
+            <option value="-1" selected disabled>Seleccione una operacion</option>
+            <option value="0">Resistencia</option>
+            <option value="1">Intensidad</option>
+            <option value="2">Tensión</option>
+        </select>
+        <label id="lbl_dato">Variable</label>
+        <input id="inp_dato" type="text">
+        <button id="btn_ejecutar" class="btn btn-success">Aceptar</button>
+        <img src="https://dam-assets.fluke.com/s3fs-public/6004178-dmm-whatis-ohm-2-715x360.jpg" class="smaller-image" alt="Ohm Image">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

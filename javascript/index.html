@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduccion a java</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-black bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Javascript</a>
+        </div>
+    </nav>
+<div class="container mt-3">
+    <h4>Formulario</h4>
+    <div class="row">
+        <div class="col-lg-4">
+<div class="mb-3">
+    <label class="form-label">Operacion</label>
+    <select class="form-select" id="slt_operaciones">
+        <option selected disabled value="-1">Seleccione operacion</option>
+<option value="0">Suma</option>
+<option value="1">Resta</option>
+<option value="2">Producto</option>
+<option value="3">Division</option>
+    </select>
+</div>
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input id="inp_nombre" class="form-control" type="text">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Apellido</label>
+                <input id="inp_apellido" class="form-control" type="text">
+            </div>
+            <button id="btn_aceptar" onclick="mostrar()" class="btn btn-success">aceptar</button>
+
+            <h3 id="h_resultado"></h3>
+        </div>
+    </div>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>

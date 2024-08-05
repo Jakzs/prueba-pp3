@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ley de ohm</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+        <div class="container mt3">
+<label class="form-label">Ley de ohm</label>
+<select onchange="cambiar_label()" id="slt_operacion">
+    <option value="-1" selected disabled>Seleccione operacion</option>
+    <option value="0">R = E / I</option>
+    <option value="1">I = E / R</option>
+    <option value="2">E = I x R</option>
+</select>
+<label id="lbl_dato">variable</label>
+<input id="inp_dato" type="text">
+<button id="btn_ejecutar">aceptar</button>
+<script src="main.js"></script>
+</body>
+</html>
